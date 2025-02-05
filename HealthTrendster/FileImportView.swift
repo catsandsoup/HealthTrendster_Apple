@@ -37,8 +37,12 @@ struct FileImportView: View {
                 onCompletion: { result in
                     switch result {
                     case .success(let url):
+                        print("File selected: \(url.path)")
                         if let (dataPoints, metrics) = ExcelReader.parse(fileURL: url) {
+                            print("Parsed \(dataPoints.count) data points and \(metrics.count) metrics.")
                             onFileImported(dataPoints, metrics)
+                        } else {
+                            print("Excel parsing returned nil. Check file format and parsing logic.")
                         }
                     case .failure(let error):
                         print("Failed to import file: \(error)")

@@ -1,3 +1,11 @@
+//
+//  HealthMetricCard.swift
+//  HealthTrendster
+//
+//  Created by Monty Giovenco on 5/2/2025.
+//
+
+
 import SwiftUI
 
 struct HealthMetricCard: View {

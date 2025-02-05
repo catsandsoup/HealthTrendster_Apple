@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CF0E2A092D537B3200E6A10F /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = CF0E2A082D537B3200E6A10F /* CoreXLSX */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CF0E29DF2D5379AF00E6A10F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0E2A092D537B3200E6A10F /* CoreXLSX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = HealthTrendster;
 			packageProductDependencies = (
+				CF0E2A082D537B3200E6A10F /* CoreXLSX */,
 			);
 			productName = HealthTrendster;
 			productReference = CF0E29CB2D5379AD00E6A10F /* HealthTrendster.app */;
@@ -195,6 +201,10 @@
 			);
 			mainGroup = CF0E29C22D5379AD00E6A10F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CF0E29FB2D5379E400E6A10F /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+				CF0E2A072D537B3200E6A10F /* XCLocalSwiftPackageReference "../../../../Downloads/CoreXLSX-0.14.2" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CF0E29CC2D5379AD00E6A10F /* Products */;
 			projectDirPath = "";
@@ -591,6 +601,31 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CF0E2A072D537B3200E6A10F /* XCLocalSwiftPackageReference "../../../../Downloads/CoreXLSX-0.14.2" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../Downloads/CoreXLSX-0.14.2";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF0E29FB2D5379E400E6A10F /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF0E2A082D537B3200E6A10F /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreXLSX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF0E29C32D5379AD00E6A10F /* Project object */;
 }
