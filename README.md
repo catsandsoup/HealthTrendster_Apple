@@ -1,3 +1,5 @@
+## I broke it and don't know how to fix it ##
+
 # HealthTrendster Universal App
 
 HealthTrendster is a SwiftUI application that helps users track and visualize their blood test results over time. The app provides an intuitive interface for importing Excel-based blood test data and displays trends and metrics in an easy-to-understand format.
